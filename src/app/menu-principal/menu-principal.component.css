@@ -1,0 +1,61 @@
+@font-face {
+  font-family: caligraphie;
+  src: url(../../assets/font/SCRIPTIN.ttf);
+}
+
+#menu-principal-logo {
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	align-items: center;
+	padding: 5px;
+}
+#menu-principal-logo > img {
+	width: 45px;
+}
+#menu-principal-logo > h1 {
+	color: red;
+	text-shadow: 1px 1px 1px red;
+	font-family: caligraphie;
+	font-weight: normal;
+	font-size: 45px;
+	margin: 0;
+	line-height: 20px;
+	margin-bottom: 65px;
+	margin-right: 5px;
+}
+
+#menu-principal-nav {
+	max-width: 1200px;
+	width: 100%;
+}
+
+#menu-principal-nav ul{
+	list-style: none;
+	margin: 0;
+ 	padding: 0;
+ 	display: flex;
+ 	justify-content: space-around;
+}
+
+#menu-principal-nav li a{
+	display: block;
+	color: inherit;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.3em 0em;
+	margin-right: 1em;
+	font-style: normal;
+	font-family: sans-serif;
+	border-bottom: 1px solid;
+    border-color: transparent;
+    transition: border-color 2s;
+    font-weight: inherit;
+}
+
+
+#menu-principal-nav li a:hover, #navigation li a:focus, #navigation li a:active {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  border-bottom-width: 1px;
+}
